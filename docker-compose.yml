@@ -4,7 +4,7 @@ services:
     container_name: wardrobe
     restart: unless-stopped
     ports:
-      - "8321:8000"
+      - "127.0.0.1:8321:8000"
     volumes:
       - ./data:/data
     environment:
